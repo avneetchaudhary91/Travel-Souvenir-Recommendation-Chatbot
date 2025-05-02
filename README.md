@@ -1,6 +1,5 @@
 # Travel Souvenir Recommendation Chatbot
-
-A Streamlit-based chatbot that provides personalized travel souvenir recommendations using the Gemini API.
+The Travel Souvenir Recommendation project is an intelligent system that suggests meaningful souvenirs to travelers based on their destination, travel purpose, budget, and the intended recipient. By leveraging AI (like Gemini or GPT models), it tailors each recommendation to reflect local culture and personal context—helping users avoid generic gifts and instead choose souvenirs that are thoughtful, relevant, and memorable.
 
 ## Features
 
@@ -37,4 +36,6 @@ A Streamlit-based chatbot that provides personalized travel souvenir recommendat
 
 - Python 3.8+
 - Gemini API key
-- Internet connection for API access 
+- Internet connection for API access
+## Screenshot
+![Screenshot (75)](https://github.com/user-attachments/assets/05a83c96-b3e9-44fa-ab30-2b353fe6dbaf)
