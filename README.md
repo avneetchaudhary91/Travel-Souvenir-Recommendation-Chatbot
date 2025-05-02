@@ -1,30 +1,40 @@
-# 🎁 Travel Souvenir Recommendation Chatbot
+# Travel Souvenir Recommendation Chatbot
 
-A personalized AI-powered chatbot built with **Streamlit** and **Gemini API** that recommends unique travel souvenirs based on your **destination**, **trip type**, **budget**, and **recipient**. Whether you're exploring Japan or backpacking through Europe, this chatbot helps you pick the perfect keepsake.
+A Streamlit-based chatbot that provides personalized travel souvenir recommendations using the Gemini API.
 
----
+## Features
 
-## ✨ Features
+- Interactive chatbot interface
+- Personalized souvenir recommendations based on travel destination
+- Real-time suggestions using Gemini API
+- User feedback system to improve recommendations
+- Modern and intuitive UI
 
-- 🌍 **Location-based souvenir suggestions**
-- 🎯 **Tailored to trip type and recipient**
-- 💸 **Budget-conscious recommendations**
-- 🤖 **Powered by Gemini for intelligent and cultural insights**
-- 🧾 **Simple, interactive UI using Streamlit**
-- 🗣️ **User feedback system to improve results**
+## Setup
 
----
-## Screenshot
-![Screenshot (75)](https://github.com/user-attachments/assets/a9fc7da3-9694-47ba-bb87-32652173c99a)
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create a `.env` file in the root directory and add your Gemini API key:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+4. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
 
-## 🚀 How to Run
-- Install Requirements
-- pip install -r requirements.txt
-- streamlit run app.py
+## Usage
 
-### 1. Clone the Repo
+1. Enter your travel destination
+2. Specify your interests and preferences
+3. Get personalized souvenir recommendations
+4. Provide feedback to improve future suggestions
 
-```bash
-git clone https://github.com/avneetchaudhary91/travel-souvenir-chatbot.git
-cd travel-souvenir-chatbot
+## Requirements
 
+- Python 3.8+
+- Gemini API key
+- Internet connection for API access 
